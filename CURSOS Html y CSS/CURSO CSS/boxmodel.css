@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.box{
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+
+}
+
+.box1{
+    width: 100%;
+    background: steelblue;
+    /* margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 25px; */
+    /* margin:top right bottom left */
+    /* margin: 40px 30px; 40px arriba y abajo y 30px a los lados */
+    margin: 50px 30px 25px 30px;
+
+}
+
+.header{
+    background: gold;
+    height: 40px;
+    margin-top: 40px;
+}
+
+.box2{
+    /* box-sizing: border-box; */
+    text-align: justify;
+    padding: 20px 30px;
+    background: crimson;
+    margin: 0 auto ;
+    overflow: hidden;
+    color: white;
+    border: 10px dotted orange;
+}
+
+
+

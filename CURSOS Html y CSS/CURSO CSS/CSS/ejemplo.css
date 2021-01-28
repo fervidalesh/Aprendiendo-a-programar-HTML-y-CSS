@@ -1,0 +1,78 @@
+/* probando los comentarios */
+/* selector universal 
+ *{
+    
+    } 
+
+*/
+
+/* Selector de tipo */
+nav{
+    background: steelblue;
+    border: black;
+}
+
+h2{
+    color: blueviolet;
+}
+
+/* Seleccion por Clases */
+.titulo{
+    color: red;
+    text-align: center;
+}
+
+.fer{
+    border: 1px solid black;
+}
+/* Seleccion por ID */
+#section{
+    border: 1px solid brown;
+}
+
+.😃{
+    border: 1px black;
+    background: green;
+
+}
+
+.😁{
+    font-size: 30px;
+
+}
+
+/* selector de atributo */
+
+[href]{
+    font-size: 10px;
+}
+
+a[target]{
+    background: green;
+    font-size: medium;
+    color: black;
+}
+
+[href]{
+    text-decoration: none;
+}
+
+[href="https://alexcgdesign12.com/"]{
+    color: darkred;
+    font-size: 20px;
+}
+
+[href^="hsttps"]{
+    color: darkolivegreen;
+    font-size: 15px;
+}
+
+[href$="org"]{
+    background-color: steelblue;
+    color: white;
+    font-size: 15px;
+}
+
+[href*="alexcgdesign"]{
+    background-color: darksalmon;
+}

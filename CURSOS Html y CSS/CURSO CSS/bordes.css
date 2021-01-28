@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    background: orangered;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    /* border: width style color */
+    /* border: 10px dashed brown; */
+    /*     border-width: top right bottom left ;
+    border-style: top right bottom left;
+    border-color: top right bottom left; */
+    border-width: 20px ;
+    border-style: groove dashed;
+    border-color: brown steelblue crimson;
+
+    /* box-shadow: h-offset v-offset blur spread color; */
+    box-shadow: 10px 10px 10px darkslategrey;
+    border-radius: 50%; 
+}
+
+.img{
+    display: block;
+     width: 400px;
+     margin: 80px auto;
+     object-fit: cover;
+     border: 20px groove brown;
+     border-radius: 20px 10px ;
+     box-shadow: 3px 3px 40px -5px rgba(133, 24, 10, 0.568);
+ }
+
+ .goku{
+     display: block;
+     width: 350px;
+     margin: 10px auto;
+     filter: drop-shadow(10px 10px 10px gold);
+ }
+ 

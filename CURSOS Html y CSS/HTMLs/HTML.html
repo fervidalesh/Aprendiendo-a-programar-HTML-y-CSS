@@ -1,0 +1,181 @@
+ <html>
+    <head> 
+        <title>Iniciando en el mundo de la programación</title>
+        <!-- Practico como realizar comentarios en un archivo HTML -->
+        <meta charset="UTF-8"/> <!-- Linea para caracteres especiales del español-->
+    </head>
+    <body>
+        <a href="./index.html">inicio</a>
+        <h1 align="center">Probando Encabezado</h1>
+        <div>
+            <p>Arriba tambien se probó centrar el encabezado.</p>
+            <p>Parrafo de prueba 2</p>
+            <p>Probando <br> un salto de linea </p>
+        </div>
+       
+        <div>
+            <p>A continuación voy a probar la etiqueta <code><:img src=""></code>. 
+                Para mayor información revise mi <a href="https://www.facebook.com/fervidalesh" target="_blank">perfil</a></p>
+            <center><img src="../../../Pictures/Envio.PNG" border="3px" alt="Temas de estudio de redes"/></center>
+        </div>
+        
+        <div>
+            <p><h2>Para probar diferentes elementos utilizados en la escritura HTML: <h2></h2></p>
+        <ol>
+            <li><p><b>Texto en negrita</b></p></li>
+            <li><p><big>Texto en grande</big></p></li>
+            <li><p><i>Texto en cursiva</i></p></li>
+            <li><p><small>Texto pequeño</small></p></li>
+            <li><p><strong>Texto reforzado</strong></p></li>
+            <li><p><sup>Texto superindice</sup></p></li>
+            <li><p><sub>Texto subindice</sub></p></li>
+            <li><p><ins>Texto insertado</ins></p></li>
+            <li><p><del>Texto borrado</del></p></li>
+
+        </ol>
+        <ul>
+            <li><p>Para el ejercicio prueba</p></li>
+            <li> <hr width="50%"> <!--Pruebo modificar el atributo width=Ancho de la linea-->
+                <p>Piden dejar una linea en blanco</p></li>
+        </ul>
+        </div>
+
+        
+
+        <div >
+            A continuación voy a crear una tabla:
+            <table align="center" border="1px">
+            <tr>
+                <td colspan="2" bgcolor="red"><br></td>
+                <td rowspan="3">Hola BB</td>
+            </tr>
+                <tr>
+                    <td>Nombre</td>
+                    <td>Cedula</td>
+                </tr>
+                <tr>
+                    <td>Brayan</td>
+                    <td>12345</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="section">
+            <hr width="20%">
+        <table align="center" border="1px">
+            <tr>
+                <td colspan="6"><center><b>Mi horario</b></center></td>
+            </tr>
+
+            <tr>
+                <td>Hora</td>
+                <td>Lunes</td>
+                <td>Martes</td>
+                <td>Miercoles</td>
+                <td>Jueves</td>
+                <td>Viernes</td>
+            </tr>
+            <tr>
+                <td>9:30</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>10:30</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>11:30</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><span style="color: slateblue;">12:30</span></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>13:30</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>14:30</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>15:30</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td><td></td>
+            </tr>
+            <tr>
+                <td>16:30</td>
+                <td><input style="color: red;"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            
+        </table>
+        <br>
+        <p>
+            Progreso en el curso <br>
+            <progress min="0" max="100" value="35"></progress>
+        </p>
+        </div>
+
+        <div>
+            <h2>Elementos de Formularios GET POST...</h2>
+            <p>Los formularios son definidos con el elemento < form. <br>
+            Se utiliza el atributo action para apuntar a una página web que cargará despues de que se envíe el formulario.</form.> </p>
+            <form action="C:\Users\braya\Desktop\pag.html" method="GET">
+                <input type="text" name="nombre"> <br>
+                <input type="radio" name="gender" value="male"> Masculino <br>
+                <input type="radio" name="gender" value="female"> Femenino <br>
+                <textarea name="mensaje"> </textarea> <br>
+                <input type="submit" value="Enviar">
+
+            </form>
+        </div>
+    <div>
+        <h2>Prueba de frameset</h2>
+        <frameset cols="10, 25%, *">
+            <frame name="uno" src="a.html">
+                <html>
+                    <head><title>untitle</title></head>
+                    <body>
+                        Hola  <br>
+                    </body>
+                </html>
+            </frame>
+            
+        </frameset>
+        <frameset rows="100, 25%, *"></frameset>
+        Ni mierda, esto no sirve, me quedo con div. 
+    </div>
+    </body>
+</html>

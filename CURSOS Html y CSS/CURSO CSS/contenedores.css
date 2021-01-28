@@ -1,0 +1,44 @@
+h2,a{
+    color: indigo;
+    font-family:'Arial';
+}
+
+/* Selecciona lo que este dentro de un tipo con clase contenedor y ha su vez dentro de en un p */
+.contenedor p{
+    color: lightcoral;
+}
+
+/* lo de arriba pero solo selecciona a la decendencia directa */
+.contenedor>p{
+
+}
+
+/* Selecciona lo que este dentro de un tipo nav con clase contenedor */
+nav.contenedor{
+
+}
+
+/* Todo lo que este dentro de un nav y tenga clase contenedor */
+nav .contenedor{
+    background-color: steelblue;
+}
+
+.contenedor a{
+    text-decoration: none;
+    color: firebrick;
+}
+
+.contenedor>a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+h2+p{
+    color: gold;
+}
+
+/* lo mismo que el de arriba, pero selecciona a todos los p que siguen despues de h2 */
+h3~p{
+    color:indigo;
+}
