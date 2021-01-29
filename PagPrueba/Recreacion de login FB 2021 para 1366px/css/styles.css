@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(243, 243, 243);
+}
+
+.left{
+    float: left;
+    width: 500px;
+    border: 1px solid transparent;
+    padding: 5px;
+    margin-top: 180px;
+    margin-left: 200px;
+}
+
+.right{
+    float: right;
+    width: 420px;
+    border: 1px solid transparent;
+    margin-right: 200px;
+    margin-top: 120px;
+}
+
+section{
+    background-color: white;
+    border: 1px solid transparent;
+    margin: 0;
+    width: 420px;
+    height: 350px;
+    padding: 00.5em 1em;
+    padding-top: 5px;
+    align-content: center;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px -2px rgb(105, 119, 119);
+}
+
+.form{
+    background-color: white;
+    border: 1px solid transparent;
+
+}
+
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.index-title{
+    color: rgb(21, 114, 221);
+    text-align: left;
+    font-size: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 10px;
+    border: 1px transparent;
+
+}
+
+.p-hook{
+    font-size: 24px;
+    font-family: arial;
+    padding: 10px 10px;
+    text-align: left;
+    border: 1px transparent;
+}
+
+input{
+    background-color: white;
+    display: block;
+    width: 98%;
+    margin: 11px auto;
+    padding: 0.8em 1em;
+    text-align: left;
+    border-radius: 3px;
+    border: .5px solid rgb(213, 218, 218);
+    font-size: 18px;
+    font-family: sans-serif;
+
+
+}
+
+.Login{
+    width: 95%;
+    margin: 10px auto;
+    padding: 0.7em 1em;
+    text-align: center;
+    color: white;
+    background-color: rgb(21, 114, 221);
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.RPSW{
+    background-color: white;
+    width: 95%;
+    margin: 5px auto;
+    margin-bottom: 20px;
+    padding: 0.5em 1em 2em 1em;
+    text-align: center;
+    color: rgb(21, 114, 221);
+    border-bottom: 1px solid rgb(213, 218, 218);
+    font-family: arial;
+    font-size: 15px;
+}
+
+/* hr{
+    display: inline-block;
+    width: 95%;
+    margin: 0;
+    -webkit-box-align: center;
+} */
+
+.NC{
+    width: fit-content;
+    margin: 15px auto;
+    padding: 0.7em 1em;
+    text-align: center;
+    color: white;
+    background-color: rgb(37, 168, 11);
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 18px;
+}
+
+
+.p-footer{
+    width: 400px;
+    margin: 10px auto;
+    margin-top: 25px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.a-p-footer{
+    width: fit-content;
+    display: inline;
+}
+
+.b1{
+    background-color: rgb(21, 114, 221);
+}
+
+.b2{
+    background-color: rgb(37, 168, 11);
+}
